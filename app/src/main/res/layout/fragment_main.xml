@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment">
+    <Button
+        android:id="@+id/watch_bags"
+        android:layout_width="280dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/bag_list"
+        app:layout_constraintBottom_toTopOf="@+id/watch_cosmetic_bags"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/watch_cosmetic_bags"
+        android:layout_width="280dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/cosmetic_bag_list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/watch_bags"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
